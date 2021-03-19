@@ -1,0 +1,11 @@
+.container {
+  min-height: 100vh;
+}
+
+/* Safari用のハックは、Chromeに適用されないようにする */
+@supports (-webkit-touch-callout: none) {
+  .container {
+    /* Safari用のハック */
+    min-height: -webkit-fill-available;
+  }
+}
