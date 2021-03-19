@@ -16,7 +16,7 @@ https://madoromi-nextjs-starter.vercel.app
 ## How to use it?
 
 ```
-git clone
+git clone git@github.com:madoromi-inc/nextjs-starter.git
 ```
 
 ### dev
