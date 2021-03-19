@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "next",
-    "build": "next build && next export",
+    "build": "next build",
     "start": "next start",
-    "serve": "serve out",
     "format": "npm run format:ts && npm run format:misc",
     "format:ts": "eslint --fix \"**/*.{js,ts,tsx}\"",
     "format:misc": "prettier --write \"**/*.{css,json}\"",
@@ -36,7 +35,6 @@
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "^2.2.1",
-    "serve": "^11.3.2",
     "typescript": "4.0"
   },
   "license": "MIT"
